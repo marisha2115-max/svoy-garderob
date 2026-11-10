@@ -1,0 +1,5 @@
+import type {Conditions,Outfit,Item} from './domain';
+export function canShowSilhouette(item:Item):boolean{return item.cutoutApproved===true&&!item.backgroundFailed}
+export function thingCount(value:number):string{const n=Math.abs(Math.trunc(value)),last=n%10,teens=n%100;return `${value} ${teens>=11&&teens<=14?'вещей':last===1?'вещь':last>=2&&last<=4?'вещи':'вещей'}`}
+export function outfitTitle(c:Conditions):string{const aliases:Record<string,string>={'работа':'Работа','театр':'Вечер','прогулка':'Прогулка','повседневный':'Повседневный','спорт':'Спорт','на сегодня':'Образ','мой образ':'Образ'};const text=c.occasion.trim(),raw=aliases[text.toLowerCase()]??text??'',label=(raw||'Образ').slice(0,80);const name=label.charAt(0).toLocaleUpperCase('ru')+label.slice(1);return `${name}, ${c.temperature>0?'+':''}${Number.isFinite(c.temperature)?c.temperature:8}°`}
+export function displayOutfitTitle(o:Outfit):string{return /^(На сегодня|Другой вариант|Мой образ)$/.test(o.title)?outfitTitle(o.conditions):o.title}

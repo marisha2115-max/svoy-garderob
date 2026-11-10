@@ -1,0 +1,352 @@
+{
+  "status": "approved",
+  "date": "2026-11-10",
+  "count": 38,
+  "scope": "Public GitHub Pages set approved by owner; no exclusions",
+  "ids": [
+    "phone-d9a83052fbfbefa088a3e54d",
+    "phone-eec70c81616f2af2c8951c66",
+    "phone-cfe30ea20f6449df578b7242",
+    "phone-54c5fe6130d9afbec059b69a",
+    "phone-e161de41b629956fd3927285",
+    "phone-97c65176a3e7de8f554e455a",
+    "phone-ddcf4bdc1923b110b5975e0b",
+    "phone-744474f652c02c42603ac0a9",
+    "phone-fd2613a2e10295747cb35677",
+    "phone-fe81e6c1ef80798bae22a66e",
+    "phone-dc3d5cbe283738c2ec20451b",
+    "phone-988cf98cb95cc28c19c3eed4",
+    "phone-e341c95e64aadcab86075b85",
+    "phone-ac186785f3a9c30a65e10007",
+    "phone-a1b338a82ba65935b4114555",
+    "phone-9fe06ba36849aeef141c6e03",
+    "phone-4498a8f989ef492d70b21e0f",
+    "phone-3502108882869cf478f5e063",
+    "phone-ae6a1c580037516a89eb09c6",
+    "phone-bfd7dd1c144f438fdbbf54c1",
+    "phone-78ea361c6509ae1b3591235d",
+    "phone-f0518447fe8b32d8451da3d5",
+    "phone-7679ff276477f47420bce161",
+    "phone-582a9e36eeaa6d4b988e70c5",
+    "phone-9c04235f9f0518703916b036",
+    "phone-e8797c9dda8de66e68dee21f",
+    "phone-2840d8da3ea85f2fd1f89b54",
+    "phone-a35e13e8969a4945f1a759cc",
+    "phone-5216dbc1862fe458ed0779d3",
+    "phone-46e09cd7079fb961bc6b5330",
+    "phone-89cdf1ee965c411aec923986",
+    "phone-4370d6c1ee0acb16fef1f0b6",
+    "phone-cc8e20c6d458ff607db2ea66",
+    "phone-3bb58bffb9d37667cb91c099",
+    "phone-5f073ba82ac1859f720869a0",
+    "phone-692e63c912b21180fd6b33c0",
+    "phone-ef1188915311e5081396dca6",
+    "phone-677d98948e457147c2e324f9"
+  ],
+  "files": [
+    {
+      "file": "photo_2026-11-10_11-59-41.jpg",
+      "id": "phone-d9a83052fbfbefa088a3e54d",
+      "name": "Бежевые кроссовки",
+      "category": "shoes",
+      "heel": "no",
+      "sha256": "d9a83052fbfbefa088a3e54d79f8e3a29ebe525799775aa6d13e5d0ad5fbfbbd"
+    },
+    {
+      "file": "photo_2026-11-10_12-00-28.jpg",
+      "id": "phone-eec70c81616f2af2c8951c66",
+      "name": "Чёрные лоферы",
+      "category": "shoes",
+      "heel": "no",
+      "sha256": "eec70c81616f2af2c8951c66bb47d17a5c92d357cff53b5df0dfc07c63ad879f"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-15.jpg",
+      "id": "phone-cfe30ea20f6449df578b7242",
+      "name": "Синие джинсы",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "cfe30ea20f6449df578b7242b66b278778066963c7e5ce5297115b4d6f0f25d3"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-21.jpg",
+      "id": "phone-54c5fe6130d9afbec059b69a",
+      "name": "Чёрные сапоги без каблука",
+      "category": "shoes",
+      "heel": "no",
+      "sha256": "54c5fe6130d9afbec059b69ae397776748a82110f441df53286b009148ef6db5"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-34.jpg",
+      "id": "phone-e161de41b629956fd3927285",
+      "name": "Синий жилет",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "e161de41b629956fd3927285eedf9d24aad7b1859249675ec645b6b808abe1e3"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-38.jpg",
+      "id": "phone-97c65176a3e7de8f554e455a",
+      "name": "Коричневая кружевная юбка",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "97c65176a3e7de8f554e455a577230060d313d19bf3fcde81888559b6a8127bd"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-41.jpg",
+      "id": "phone-ddcf4bdc1923b110b5975e0b",
+      "name": "Молочный кардиган",
+      "category": "top",
+      "heel": "unknown",
+      "sha256": "ddcf4bdc1923b110b5975e0bf2237b6fe0606c8f8528345240354221d3dd89de"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-44.jpg",
+      "id": "phone-744474f652c02c42603ac0a9",
+      "name": "Голубая вязаная юбка",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "744474f652c02c42603ac0a917257087260cc922fcdeda52a4609dd1671fc45b"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-48.jpg",
+      "id": "phone-fd2613a2e10295747cb35677",
+      "name": "Молочное платье без рукавов",
+      "category": "dress",
+      "heel": "unknown",
+      "sha256": "fd2613a2e10295747cb35677b29e5ab6fd48e706dad8e5cb11547a3160e09523"
+    },
+    {
+      "file": "photo_2026-11-10_12-01-52.jpg",
+      "id": "phone-fe81e6c1ef80798bae22a66e",
+      "name": "Чёрные ботфорты на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "fe81e6c1ef80798bae22a66e9a4f40d7c0cf0511c40120bd3f9dc95fc2a97677"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-01.jpg",
+      "id": "phone-dc3d5cbe283738c2ec20451b",
+      "name": "Чёрные ботильоны на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "dc3d5cbe283738c2ec20451b5b3504c3af2087ab946f7ec5c0b5bc5a8b5aa12e"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-05.jpg",
+      "id": "phone-988cf98cb95cc28c19c3eed4",
+      "name": "Белые ботильоны на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "988cf98cb95cc28c19c3eed462001a0eff88301d5c5db900815c7675bb3443e8"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-08.jpg",
+      "id": "phone-e341c95e64aadcab86075b85",
+      "name": "Рыжий тренч",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "e341c95e64aadcab86075b85a9875a6fdb2707244e01a3d827088027ba939dae"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-13.jpg",
+      "id": "phone-ac186785f3a9c30a65e10007",
+      "name": "Чёрные ботинки на шнуровке",
+      "category": "shoes",
+      "heel": "no",
+      "sha256": "ac186785f3a9c30a65e10007a46cb4d6a2a25181acc86c82e0df372b78a4ff6b"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-16.jpg",
+      "id": "phone-a1b338a82ba65935b4114555",
+      "name": "Бордовые туфли на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "a1b338a82ba65935b41145555f5b871d49695bff38e9916609b838fc1aedc741"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-20.jpg",
+      "id": "phone-9fe06ba36849aeef141c6e03",
+      "name": "Красные туфли на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "9fe06ba36849aeef141c6e030ac4fb9f020f1d71859ce7a35571bcd1bc5d2719"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-24.jpg",
+      "id": "phone-4498a8f989ef492d70b21e0f",
+      "name": "Чёрные туфли на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "4498a8f989ef492d70b21e0fd7db911fc1774719a6f138c823d8ec6086bab804"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-28.jpg",
+      "id": "phone-3502108882869cf478f5e063",
+      "name": "Чёрный стёганый жилет",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "3502108882869cf478f5e0631cc99a1633ecc3d952a786f6d945734117835937"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-30.jpg",
+      "id": "phone-ae6a1c580037516a89eb09c6",
+      "name": "Чёрные широкие брюки",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "ae6a1c580037516a89eb09c6772728d21f1c2fd45383511b9b29da292aac4240"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-34.jpg",
+      "id": "phone-bfd7dd1c144f438fdbbf54c1",
+      "name": "Бежевые трикотажные брюки",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "bfd7dd1c144f438fdbbf54c1ffe22529f7ec861d5cc0c6790834dce3d1800e66"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-38.jpg",
+      "id": "phone-78ea361c6509ae1b3591235d",
+      "name": "Коричневые брюки клёш",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "78ea361c6509ae1b3591235de73e98826a214fc9503d93706d8c15b512894202"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-40.jpg",
+      "id": "phone-f0518447fe8b32d8451da3d5",
+      "name": "Голубые джинсы",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "f0518447fe8b32d8451da3d5ad9db7953400eef2307c285cd9240d5fd0ab11c6"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-43.jpg",
+      "id": "phone-7679ff276477f47420bce161",
+      "name": "Синяя блузка",
+      "category": "top",
+      "heel": "unknown",
+      "sha256": "7679ff276477f47420bce161a3c6f50d9883319d4cca3383b68feab39c2ea606"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-46.jpg",
+      "id": "phone-582a9e36eeaa6d4b988e70c5",
+      "name": "Бежевая короткая куртка",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "582a9e36eeaa6d4b988e70c5e1b9a89e694622ab88480d15bee9cd1f32b03641"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-49.jpg",
+      "id": "phone-9c04235f9f0518703916b036",
+      "name": "Чёрный приталенный пиджак",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "9c04235f9f0518703916b036095e58327f8843eb3fbe00ae8b70142433eb028a"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-53.jpg",
+      "id": "phone-e8797c9dda8de66e68dee21f",
+      "name": "Коричневые сапоги на каблуке",
+      "category": "shoes",
+      "heel": "yes",
+      "sha256": "e8797c9dda8de66e68dee21f5578834865e4d799cdc5127e0d851758c749a60a"
+    },
+    {
+      "file": "photo_2026-11-10_12-02-57.jpg",
+      "id": "phone-2840d8da3ea85f2fd1f89b54",
+      "name": "Светлое пальто",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "2840d8da3ea85f2fd1f89b54d74fd98346f2afd372666e6eb52b85806535f3d5"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-00.jpg",
+      "id": "phone-a35e13e8969a4945f1a759cc",
+      "name": "Чёрное худи на молнии",
+      "category": "top",
+      "heel": "unknown",
+      "sha256": "a35e13e8969a4945f1a759cce68e1394dd2bd61db69e6fc1350c4e32c093f397"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-03.jpg",
+      "id": "phone-5216dbc1862fe458ed0779d3",
+      "name": "Молочное худи",
+      "category": "top",
+      "heel": "unknown",
+      "sha256": "5216dbc1862fe458ed0779d3724eaa5af0061814b6193c1c7b87d74e7d275207"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-06.jpg",
+      "id": "phone-46e09cd7079fb961bc6b5330",
+      "name": "Коричневый плащ",
+      "category": "outer",
+      "heel": "unknown",
+      "sha256": "46e09cd7079fb961bc6b53302405b6f1bdf867d1d1cada5bfd517eda6910ced2"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-10.jpg",
+      "id": "phone-89cdf1ee965c411aec923986",
+      "name": "Чёрное платье-комбинация",
+      "category": "dress",
+      "heel": "unknown",
+      "sha256": "89cdf1ee965c411aec923986f874b82c6afcebe4fdd46ebaa2e5cbaf2f9f7509"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-14.jpg",
+      "id": "phone-4370d6c1ee0acb16fef1f0b6",
+      "name": "Красное платье макси",
+      "category": "dress",
+      "heel": "unknown",
+      "sha256": "4370d6c1ee0acb16fef1f0b6017af690eb689a5f27ffd914c1108970d300f7d5"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-18.jpg",
+      "id": "phone-cc8e20c6d458ff607db2ea66",
+      "name": "Чёрное платье с длинным рукавом",
+      "category": "dress",
+      "heel": "unknown",
+      "sha256": "cc8e20c6d458ff607db2ea660ff5ba49c015b726b1087b9c762dc6036d37a32e"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-21.jpg",
+      "id": "phone-3bb58bffb9d37667cb91c099",
+      "name": "Молочное платье с ремнём",
+      "category": "dress",
+      "heel": "unknown",
+      "sha256": "3bb58bffb9d37667cb91c0994ba484c277c26fedc41df4cbe02663e324712884"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-24.jpg",
+      "id": "phone-5f073ba82ac1859f720869a0",
+      "name": "Чёрное платье с пышными рукавами",
+      "category": "dress",
+      "heel": "unknown",
+      "sha256": "5f073ba82ac1859f720869a01df8fee1d8d59499c01245fd30858157e7433358"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-26.jpg",
+      "id": "phone-692e63c912b21180fd6b33c0",
+      "name": "Молочное худи с надписью",
+      "category": "top",
+      "heel": "unknown",
+      "sha256": "692e63c912b21180fd6b33c0aca9a6c02d3ea200ce9fe5993d890246e1e1ce82"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-30.jpg",
+      "id": "phone-ef1188915311e5081396dca6",
+      "name": "Чёрные классические брюки",
+      "category": "bottom",
+      "heel": "unknown",
+      "sha256": "ef1188915311e5081396dca6fee4a33f0dfb5a556d3e946ea9857336cbf6e5fb"
+    },
+    {
+      "file": "photo_2026-11-10_12-03-34.jpg",
+      "id": "phone-677d98948e457147c2e324f9",
+      "name": "Оранжевый свитер",
+      "category": "top",
+      "heel": "unknown",
+      "sha256": "677d98948e457147c2e324f90c5a826b7e65df78cb0c4436c8ba38f73a1c96cf"
+    }
+  ]
+}

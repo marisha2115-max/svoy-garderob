@@ -1,0 +1,987 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "phone-d9a83052fbfbefa088a3e54d",
+      "name": "Бежевые кроссовки",
+      "category": "shoes",
+      "color": "Бежевый",
+      "heel": "no",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "sport"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-eec70c81616f2af2c8951c66",
+      "name": "Чёрные лоферы",
+      "category": "shoes",
+      "color": "Чёрный",
+      "heel": "no",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart",
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-cfe30ea20f6449df578b7242",
+      "name": "Синие джинсы",
+      "category": "bottom",
+      "color": "Синий",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-54c5fe6130d9afbec059b69a",
+      "name": "Чёрные сапоги без каблука",
+      "category": "shoes",
+      "color": "Чёрный",
+      "heel": "no",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-e161de41b629956fd3927285",
+      "name": "Синий жилет",
+      "category": "outer",
+      "color": "Синий",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-97c65176a3e7de8f554e455a",
+      "name": "Коричневая кружевная юбка",
+      "category": "bottom",
+      "color": "Коричневый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-ddcf4bdc1923b110b5975e0b",
+      "name": "Молочный кардиган",
+      "category": "top",
+      "color": "Молочный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "business"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-744474f652c02c42603ac0a9",
+      "name": "Голубая вязаная юбка",
+      "category": "bottom",
+      "color": "Голубой",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart",
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-fd2613a2e10295747cb35677",
+      "name": "Молочное платье без рукавов",
+      "category": "dress",
+      "color": "Молочный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart",
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-fe81e6c1ef80798bae22a66e",
+      "name": "Чёрные ботфорты на каблуке",
+      "category": "shoes",
+      "color": "Чёрный",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-dc3d5cbe283738c2ec20451b",
+      "name": "Чёрные ботильоны на каблуке",
+      "category": "shoes",
+      "color": "Чёрный",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-988cf98cb95cc28c19c3eed4",
+      "name": "Белые ботильоны на каблуке",
+      "category": "shoes",
+      "color": "Белый",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-e341c95e64aadcab86075b85",
+      "name": "Рыжий тренч",
+      "category": "outer",
+      "color": "Коричневый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-ac186785f3a9c30a65e10007",
+      "name": "Чёрные ботинки на шнуровке",
+      "category": "shoes",
+      "color": "Чёрный",
+      "heel": "no",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "sport"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-a1b338a82ba65935b4114555",
+      "name": "Бордовые туфли на каблуке",
+      "category": "shoes",
+      "color": "Бордовый",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-9fe06ba36849aeef141c6e03",
+      "name": "Красные туфли на каблуке",
+      "category": "shoes",
+      "color": "Красный",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-4498a8f989ef492d70b21e0f",
+      "name": "Чёрные туфли на каблуке",
+      "category": "shoes",
+      "color": "Чёрный",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-3502108882869cf478f5e063",
+      "name": "Чёрный стёганый жилет",
+      "category": "outer",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "sport"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-ae6a1c580037516a89eb09c6",
+      "name": "Чёрные широкие брюки",
+      "category": "bottom",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-bfd7dd1c144f438fdbbf54c1",
+      "name": "Бежевые трикотажные брюки",
+      "category": "bottom",
+      "color": "Бежевый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-78ea361c6509ae1b3591235d",
+      "name": "Коричневые брюки клёш",
+      "category": "bottom",
+      "color": "Коричневый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart",
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-f0518447fe8b32d8451da3d5",
+      "name": "Голубые джинсы",
+      "category": "bottom",
+      "color": "Голубой",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-7679ff276477f47420bce161",
+      "name": "Синяя блузка",
+      "category": "top",
+      "color": "Синий",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-582a9e36eeaa6d4b988e70c5",
+      "name": "Бежевая короткая куртка",
+      "category": "outer",
+      "color": "Бежевый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "casual"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-9c04235f9f0518703916b036",
+      "name": "Чёрный приталенный пиджак",
+      "category": "outer",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-e8797c9dda8de66e68dee21f",
+      "name": "Коричневые сапоги на каблуке",
+      "category": "shoes",
+      "color": "Коричневый",
+      "heel": "yes",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-2840d8da3ea85f2fd1f89b54",
+      "name": "Светлое пальто",
+      "category": "outer",
+      "color": "Молочный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "warm",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-a35e13e8969a4945f1a759cc",
+      "name": "Чёрное худи на молнии",
+      "category": "top",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "sport"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-5216dbc1862fe458ed0779d3",
+      "name": "Молочное худи",
+      "category": "top",
+      "color": "Молочный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "sport"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-46e09cd7079fb961bc6b5330",
+      "name": "Коричневый плащ",
+      "category": "outer",
+      "color": "Коричневый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-89cdf1ee965c411aec923986",
+      "name": "Чёрное платье-комбинация",
+      "category": "dress",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-4370d6c1ee0acb16fef1f0b6",
+      "name": "Красное платье макси",
+      "category": "dress",
+      "color": "Красный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-cc8e20c6d458ff607db2ea66",
+      "name": "Чёрное платье с длинным рукавом",
+      "category": "dress",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart",
+        "business"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-3bb58bffb9d37667cb91c099",
+      "name": "Молочное платье с ремнём",
+      "category": "dress",
+      "color": "Молочный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart",
+        "business"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-5f073ba82ac1859f720869a0",
+      "name": "Чёрное платье с пышными рукавами",
+      "category": "dress",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-692e63c912b21180fd6b33c0",
+      "name": "Молочное худи с надписью",
+      "category": "top",
+      "color": "Молочный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "sport"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-ef1188915311e5081396dca6",
+      "name": "Чёрные классические брюки",
+      "category": "bottom",
+      "color": "Чёрный",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "medium",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "business",
+        "smart"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    },
+    {
+      "id": "phone-677d98948e457147c2e324f9",
+      "name": "Оранжевый свитер",
+      "category": "top",
+      "color": "Оранжевый",
+      "heel": "unknown",
+      "season": [
+        "all"
+      ],
+      "warmth": "warm",
+      "rain": "unknown",
+      "wind": "unknown",
+      "styles": [
+        "casual",
+        "business"
+      ],
+      "demo": false,
+      "categoryManual": true,
+      "analysisStatus": "done",
+      "backgroundStatus": "original",
+      "cutoutApproved": false,
+      "photoPreference": "original",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "photoRevision": 1
+    }
+  ],
+  "photos": {
+    "phone-d9a83052fbfbefa088a3e54d": "shared-wardrobe/photos/phone-d9a83052fbfbefa088a3e54d.jpg",
+    "phone-eec70c81616f2af2c8951c66": "shared-wardrobe/photos/phone-eec70c81616f2af2c8951c66.jpg",
+    "phone-cfe30ea20f6449df578b7242": "shared-wardrobe/photos/phone-cfe30ea20f6449df578b7242.jpg",
+    "phone-54c5fe6130d9afbec059b69a": "shared-wardrobe/photos/phone-54c5fe6130d9afbec059b69a.jpg",
+    "phone-e161de41b629956fd3927285": "shared-wardrobe/photos/phone-e161de41b629956fd3927285.jpg",
+    "phone-97c65176a3e7de8f554e455a": "shared-wardrobe/photos/phone-97c65176a3e7de8f554e455a.jpg",
+    "phone-ddcf4bdc1923b110b5975e0b": "shared-wardrobe/photos/phone-ddcf4bdc1923b110b5975e0b.jpg",
+    "phone-744474f652c02c42603ac0a9": "shared-wardrobe/photos/phone-744474f652c02c42603ac0a9.jpg",
+    "phone-fd2613a2e10295747cb35677": "shared-wardrobe/photos/phone-fd2613a2e10295747cb35677.jpg",
+    "phone-fe81e6c1ef80798bae22a66e": "shared-wardrobe/photos/phone-fe81e6c1ef80798bae22a66e.jpg",
+    "phone-dc3d5cbe283738c2ec20451b": "shared-wardrobe/photos/phone-dc3d5cbe283738c2ec20451b.jpg",
+    "phone-988cf98cb95cc28c19c3eed4": "shared-wardrobe/photos/phone-988cf98cb95cc28c19c3eed4.jpg",
+    "phone-e341c95e64aadcab86075b85": "shared-wardrobe/photos/phone-e341c95e64aadcab86075b85.jpg",
+    "phone-ac186785f3a9c30a65e10007": "shared-wardrobe/photos/phone-ac186785f3a9c30a65e10007.jpg",
+    "phone-a1b338a82ba65935b4114555": "shared-wardrobe/photos/phone-a1b338a82ba65935b4114555.jpg",
+    "phone-9fe06ba36849aeef141c6e03": "shared-wardrobe/photos/phone-9fe06ba36849aeef141c6e03.jpg",
+    "phone-4498a8f989ef492d70b21e0f": "shared-wardrobe/photos/phone-4498a8f989ef492d70b21e0f.jpg",
+    "phone-3502108882869cf478f5e063": "shared-wardrobe/photos/phone-3502108882869cf478f5e063.jpg",
+    "phone-ae6a1c580037516a89eb09c6": "shared-wardrobe/photos/phone-ae6a1c580037516a89eb09c6.jpg",
+    "phone-bfd7dd1c144f438fdbbf54c1": "shared-wardrobe/photos/phone-bfd7dd1c144f438fdbbf54c1.jpg",
+    "phone-78ea361c6509ae1b3591235d": "shared-wardrobe/photos/phone-78ea361c6509ae1b3591235d.jpg",
+    "phone-f0518447fe8b32d8451da3d5": "shared-wardrobe/photos/phone-f0518447fe8b32d8451da3d5.jpg",
+    "phone-7679ff276477f47420bce161": "shared-wardrobe/photos/phone-7679ff276477f47420bce161.jpg",
+    "phone-582a9e36eeaa6d4b988e70c5": "shared-wardrobe/photos/phone-582a9e36eeaa6d4b988e70c5.jpg",
+    "phone-9c04235f9f0518703916b036": "shared-wardrobe/photos/phone-9c04235f9f0518703916b036.jpg",
+    "phone-e8797c9dda8de66e68dee21f": "shared-wardrobe/photos/phone-e8797c9dda8de66e68dee21f.jpg",
+    "phone-2840d8da3ea85f2fd1f89b54": "shared-wardrobe/photos/phone-2840d8da3ea85f2fd1f89b54.jpg",
+    "phone-a35e13e8969a4945f1a759cc": "shared-wardrobe/photos/phone-a35e13e8969a4945f1a759cc.jpg",
+    "phone-5216dbc1862fe458ed0779d3": "shared-wardrobe/photos/phone-5216dbc1862fe458ed0779d3.jpg",
+    "phone-46e09cd7079fb961bc6b5330": "shared-wardrobe/photos/phone-46e09cd7079fb961bc6b5330.jpg",
+    "phone-89cdf1ee965c411aec923986": "shared-wardrobe/photos/phone-89cdf1ee965c411aec923986.jpg",
+    "phone-4370d6c1ee0acb16fef1f0b6": "shared-wardrobe/photos/phone-4370d6c1ee0acb16fef1f0b6.jpg",
+    "phone-cc8e20c6d458ff607db2ea66": "shared-wardrobe/photos/phone-cc8e20c6d458ff607db2ea66.jpg",
+    "phone-3bb58bffb9d37667cb91c099": "shared-wardrobe/photos/phone-3bb58bffb9d37667cb91c099.jpg",
+    "phone-5f073ba82ac1859f720869a0": "shared-wardrobe/photos/phone-5f073ba82ac1859f720869a0.jpg",
+    "phone-692e63c912b21180fd6b33c0": "shared-wardrobe/photos/phone-692e63c912b21180fd6b33c0.jpg",
+    "phone-ef1188915311e5081396dca6": "shared-wardrobe/photos/phone-ef1188915311e5081396dca6.jpg",
+    "phone-677d98948e457147c2e324f9": "shared-wardrobe/photos/phone-677d98948e457147c2e324f9.jpg"
+  }
+}

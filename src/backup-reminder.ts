@@ -1,0 +1,1 @@
+export function backupDue(last:string,first:number,now=Date.now()):boolean{const saved=Date.parse(last);const baseline=Number.isFinite(saved)?saved:first;return Number.isFinite(baseline)&&now-baseline>14*86400000}
