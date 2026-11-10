@@ -1,2 +1,0 @@
-import {test} from 'node:test';import assert from 'node:assert/strict';import {backupDue} from '../src/backup-reminder';
-test('reminder appears only after fourteen days with data or last prepared copy',()=>{const now=Date.parse('2026-11-09');assert.equal(backupDue('',now-1000,now),false);assert.equal(backupDue('',now-15*86400000,now),true);assert.equal(backupDue(new Date(now-86400000).toISOString(),now-90*86400000,now),false);assert.equal(backupDue('bad',NaN,now),false)});

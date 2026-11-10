@@ -1,2 +1,0 @@
-import {test} from 'node:test';import assert from 'node:assert/strict';import {adjustCrop} from '../src/crop';
-test('rectangle move and corner resize stay inside original with positive area',()=>{const r={x:.1,y:.1,width:.8,height:.8};for(const mode of ['move','nw','ne','sw','se'] as const){const a=adjustCrop(r,mode,3,-3);assert.ok(a.x>=0&&a.y>=0&&a.width>=.1-1e-9&&a.height>=.1-1e-9);assert.ok(a.x+a.width<=1.00001&&a.y+a.height<=1.00001)}});

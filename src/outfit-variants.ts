@@ -1,3 +1,0 @@
-import type {Outfit} from './domain';
-export function outfitSignature(ids:string[]):string{return JSON.stringify([...ids].sort())}
-export function chooseNextVariant(outfits:Outfit[],currentIds:string[],seen:Set<string>):Outfit|undefined{const current=outfitSignature(currentIds),available=outfits.filter(o=>{const signature=outfitSignature(o.itemIds);return signature!==current&&!seen.has(signature)}),items=new Map(outfits.flatMap(o=>o.itemSnapshots??[]).map(i=>[i.id,i])),base=(ids:string[])=>outfitSignature(ids.filter(id=>['top','bottom','dress'].includes(items.get(id)?.category??''))),currentBase=base(currentIds);return available.find(o=>base(o.itemIds)!==currentBase)??available[0]}
