@@ -11,7 +11,8 @@
     "verify:browser": "node scripts/verify-browser.mjs",
     "build:pages": "node scripts/build.mjs --out-dir=output/pages/dist",
     "verify:pages": "node browser/pages.mjs",
-    "prepare:pages": "node scripts/prepare-pages-repository.mjs"
+    "prepare:pages": "node scripts/prepare-pages-repository.mjs",
+    "verify:cards": "node browser/card-fit.mjs"
   },
   "dependencies": {
     "fflate": "0.8.2",
