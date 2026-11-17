@@ -3,7 +3,7 @@ const root=process.env.PAGES_DIST??'output/pages/dist',executablePath=process.en
 const browser=await chromium.launch({executablePath,headless:true}),report=[];await mkdir('output/pages',{recursive:true});
 async function decode(locator){await locator.first().waitFor();await locator.evaluateAll(async images=>{for(const i of images)i.loading='eager';await Promise.all(images.map(i=>i.decode()));if(images.some(i=>!i.naturalWidth))throw Error('Image failed to decode')})}
 try{for(const basePath of ['/','/репозиторий/']){const server=createStaticServer({root,basePath});await new Promise(r=>server.listen(0,'127.0.0.1',r));const origin=`http://127.0.0.1:${server.address().port}`,base=origin+basePath;
- try{for(const [width,height]of [[390,844],[768,1024]]){const context=await browser.newContext({viewport:{width,height},isMobile:true,hasTouch:true}),page=await context.newPage(),requests=[],errors=[],failed=[];
+ try{for(const [width,height]of [[390,844],[768,1024]]){const context=await browser.newContext({viewport:{width,height},isMobile:true,hasTouch:true,serviceWorkers:'block'}),page=await context.newPage(),requests=[],errors=[],failed=[];
   await context.route('**/*',route=>{const u=new URL(route.request().url());if(u.protocol==='http:'&&u.origin!==origin){errors.push('External request: '+u.href);return route.abort()}return route.continue()});
   page.on('request',r=>requests.push({url:r.url(),method:r.method()}));page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()})});
   try{

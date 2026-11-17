@@ -27,7 +27,7 @@ async function verify(page,count){
  return tiles;
 }
 const openCloset=async page=>{await page.getByRole('button',{name:'Гардероб',exact:true}).click()};
-try{for(const [name,width,height,mobile]of [['iphone',390,844,true],['android',412,915,true],['tablet',768,1024,true],['desktop',1440,1000,false]]){const context=await browser.newContext({viewport:{width,height},isMobile:mobile,hasTouch:mobile}),page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));try{
+try{for(const [name,width,height,mobile]of [['iphone',390,844,true],['android',412,915,true],['tablet',768,1024,true],['desktop',1440,1000,false]]){const context=await browser.newContext({viewport:{width,height},isMobile:mobile,hasTouch:mobile,serviceWorkers:'block'}),page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));try{
  await page.goto(base);
  // The first screen is «Сегодня» with an outfit of the day.
  await page.getByText('Образ дня',{exact:true}).waitFor({timeout:30000});await page.waitForFunction(()=>{const p=[...document.querySelectorAll('.today-hero img')];return p.length>0&&p.every(i=>i.complete&&i.naturalWidth>0)},null,{timeout:30000});
