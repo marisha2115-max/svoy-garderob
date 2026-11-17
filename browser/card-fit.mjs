@@ -1,3 +1,5 @@
+// УСТАРЕЛО (17.11.2026): проверяет прежний вид гардероба (карточки разной высоты по форме фото).
+// Новый журнальный вид с одинаковыми плитками проверяет browser/tile-fit.mjs. Файл оставлен для истории.
 import {chromium} from 'playwright-core';import assert from 'node:assert/strict';import {mkdir,writeFile} from 'node:fs/promises';import {createStaticServer} from '../scripts/static-server.mjs';
 const remote=process.env.CARD_FIT_URL,server=remote?undefined:createStaticServer({root:process.env.PAGES_DIST??'output/pages/dist',basePath:'/repository/'});if(server)await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base=remote??`http://127.0.0.1:${server.address().port}/repository/`,browser=await chromium.launch({executablePath:process.env.BROWSER_PATH??'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true}),results=[];await mkdir('output/card-fit',{recursive:true});
