@@ -11,12 +11,12 @@ import {useViewportSafety} from './viewport';
 import {OutfitBuilder} from './components/OutfitBuilder';
 import {Photo} from './components/Photo';import {Modal} from './components/Modal';import {ItemEditor} from './components/ItemEditor';import {ConditionsForm} from './components/ConditionsForm';import {OutfitCard} from './components/OutfitCard';import {BackupPanel} from './components/BackupPanel';import {StorageProtection} from './components/StorageProtection';import {backupDue} from './backup-reminder';import {Icon} from './components/Icon';
 import {Ideas,SaleAd} from './components/Ideas';
-import {Today} from './components/Today';
+import {Today} from './components/Today';import {InstallHelp} from './components/InstallHelp';
 type Tab='today'|'closet'|'looks'|'ideas';
 export default function App(){
  useViewportSafety();
  const [store,setStore]=useState<ClosetStore>(),[all,setAll]=useState<Item[]>([]),[saved,setSaved]=useState<Outfit[]>([]),[tab,setTab]=useState<Tab>('today');
- const [menu,setMenu]=useState<'menu'|'backup'|'protect'|'about'|null>(null);const [lastBackup,setLastBackup]=useState(()=>{try{return localStorage.getItem('wardrobe-backup-prepared')??''}catch{return ''}});
+ const [menu,setMenu]=useState<'menu'|'backup'|'protect'|'about'|'install'|null>(null);const [lastBackup,setLastBackup]=useState(()=>{try{return localStorage.getItem('wardrobe-backup-prepared')??''}catch{return ''}});
  const [editor,setEditor]=useState<Item|'new'|null>(null),[deleting,setDeleting]=useState<Item|null>(null),[filters,setFilters]=useState(false);
  const [category,setCategory]=useState<Category|'all'>('all'),[season,setSeason]=useState(''),[scenario,setScenario]=useState(''),[sub,setSub]=useState('');
  const [builder,setBuilder]=useState<Outfit|'new'|null>(null),[savedSeason,setSavedSeason]=useState(''),[savedScenario,setSavedScenario]=useState('');
@@ -71,7 +71,7 @@ export default function App(){
   <main className="main-content" ref={mainRef}>
 
    {error?<p className="message error" role="alert">{error}<button className="icon-button" aria-label="Закрыть сообщение" onClick={()=>setError('')}><Icon name="close"/></button></p>:showPhotoTip&&!processing?<p className="message" role="status">Лучше фото вещи на полу или вешалке<button className="icon-button" aria-label="Закрыть подсказку" onClick={()=>setShowPhotoTip(false)}>×</button></p>:notice&&!processing?<p className="message" role="status">{notice}</p>:null}
-   {tab==='today'&&<Today items={items} store={store} version={version} conditions={conditions} onTemperature={t=>{setConditions(c=>({...c,temperature:t}));setResult(null)}} onOpen={setBuilder} onSave={saveOutfit} onIdeas={()=>navigate('ideas')} onAdd={choosePhotos}/>}
+   {tab==='today'&&<Today items={items} store={store} version={version} conditions={conditions} onTemperature={t=>{setConditions(c=>({...c,temperature:t}));setResult(null)}} onOpen={setBuilder} onSave={saveOutfit} onIdeas={()=>navigate('ideas')} onAdd={choosePhotos} onInstall={()=>setMenu('install')}/>}
    {tab==='closet'&&<>
     <div className="page-actions"><h1>Гардероб</h1></div>
     <div className="closet-toolbar"><div className="category-scroller" aria-label="Категории"><button aria-pressed={category==='all'} className={category==='all'?'chip active':'chip'} onClick={()=>setCategory('all')}>Все вещи</button>{Object.entries(categories).map(([key,label])=><button aria-pressed={category===key} className={category===key?'chip active':'chip'} key={key} onClick={()=>setCategory(key as Category)}>{label}</button>)}</div><button className="filter-button" disabled={!items.length} onClick={()=>setFilters(true)}>Фильтры{[season,scenario,sub].filter(Boolean).length>0?` (${[season,scenario,sub].filter(Boolean).length})`:''}</button></div>
@@ -85,8 +85,9 @@ export default function App(){
    {tab==='ideas'&&<Ideas items={items} saved={ownSaved} store={store} version={version} onOpenOutfit={setBuilder} onSell={setSelling} onRemove={setDeleting} onAdd={choosePhotos}/>}
   </main>
   <nav className="navigation" aria-label="Основная навигация">{([{id:'today',label:'Сегодня',icon:'sun'},{id:'closet',label:'Гардероб',icon:'grid'},{id:'looks',label:'Образы',icon:'hanger'},{id:'ideas',label:'Идеи',icon:'spark'}] as const).map(t=><button className={tab===t.id?'nav-item active':'nav-item'} aria-label={t.label} aria-current={tab===t.id?'page':undefined} key={t.id} onClick={()=>navigate(t.id)}><Icon name={t.icon} size={21}/><span>{t.label}</span></button>)}</nav>
-  {menu==='menu'&&<Modal title="Меню" onClose={()=>setMenu(null)}><div className="menu-actions"><button className="button secondary full" onClick={()=>setMenu('backup')}>Копия и перенос</button><button className="button secondary full" onClick={()=>setMenu('protect')}>Защитить от очистки</button><button className="button secondary full" onClick={()=>setMenu('about')}>О приложении</button></div></Modal>}
+  {menu==='menu'&&<Modal title="Меню" onClose={()=>setMenu(null)}><div className="menu-actions"><button className="button secondary full" onClick={()=>setMenu('install')}>Установить на телефон</button><button className="button secondary full" onClick={()=>setMenu('backup')}>Копия и перенос</button><button className="button secondary full" onClick={()=>setMenu('protect')}>Защитить от очистки</button><button className="button secondary full" onClick={()=>setMenu('about')}>О приложении</button></div></Modal>}
   {menu==='backup'&&<BackupPanel store={store} onClose={()=>{setMenu(null);try{setLastBackup(localStorage.getItem('wardrobe-backup-prepared')??'')}catch{}}} onImported={refresh}/>}
+  {menu==='install'&&<InstallHelp hasItems={items.length>0} onBackup={()=>setMenu('backup')} onClose={()=>setMenu(null)}/>}
   {menu==='about'&&<Modal title="О приложении" onClose={()=>setMenu(null)}><About/></Modal>}
   {menu==='protect'&&<Modal title="Защита данных" onClose={()=>setMenu(null)}><StorageProtection/></Modal>}
   {unknownReview&&items.some(i=>i.category==='unknown')&&<CategoryReview items={items.filter(i=>i.category==='unknown')} store={store} version={version} onSave={saveItem} onClose={()=>setUnknownReview(false)}/>}
