@@ -2,7 +2,7 @@ import {resolveAsset} from './assets';
 declare const __WORKER_FILE__:string;
 import type { Item } from './domain';
 import type {PhotoReport} from './photo-report';
-export interface LocalResult { photo?:Blob; category?:Item['category'];color?:string;name?:string;fallback?:boolean;humanPhoto?:boolean;report?:PhotoReport }
+export interface LocalResult { photo?:Blob; category?:Item['category'];color?:string;name?:string;fallback?:boolean;humanPhoto?:boolean;report?:PhotoReport;confident?:boolean }
 let worker:Worker|undefined;let serial=0;let tail=Promise.resolve();
 export function processLocalPhoto(photo:Blob,category:Item['category'],progress:(text:string)=>void,source:'original'|'crop'='original'):Promise<LocalResult>{
   let done!:(v:LocalResult)=>void;const result=new Promise<LocalResult>(r=>done=r);
