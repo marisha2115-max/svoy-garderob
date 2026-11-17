@@ -7,7 +7,7 @@ try{if((await readdir(out)).length)throw Error('Build directory is not empty; ch
 const approvedPaths=await approvedAssetPaths('release-assets');
 const types=spawnSync(process.execPath,['node_modules/typescript/bin/tsc','--noEmit'],{stdio:'inherit'});if(types.status!==0)process.exit(types.status??1);
 await mkdir(out,{recursive:true});
-const options={bundle:true,format:'esm',minify:true,sourcemap:false,entryNames:'[name]-[hash]',outdir:resolve(out,'assets'),metafile:true,target:['safari16'],logLevel:'info',define:{'process.env.NODE_ENV':'"production"'}};
+const options={bundle:true,format:'esm',minify:true,sourcemap:false,entryNames:'[name]-[hash]',outdir:resolve(out,'assets'),metafile:true,target:['safari16'],logLevel:'info',loader:{'.woff2':'file'},assetNames:'[name]-[hash]',define:{'process.env.NODE_ENV':'"production"'}};
 const worker=await build({...options,entryPoints:['src/background.worker.ts']});const workerPath=Object.keys(worker.metafile.outputs).find(p=>p.endsWith('.js'));
 const workerRelative=relative(out,resolve(workerPath)).split(sep).join('/');
 const app=await build({...options,entryPoints:['src/main.tsx'],define:{...options.define,__WORKER_FILE__:JSON.stringify(workerRelative)}});
