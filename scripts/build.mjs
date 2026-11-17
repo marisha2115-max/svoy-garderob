@@ -1,4 +1,5 @@
 import {approvedAssetPaths} from './release-assets.mjs';
+import {serviceWorkerSource} from './service-worker.mjs';
 import {build} from 'esbuild';import {cp,mkdir,readFile,writeFile,readdir,stat} from 'node:fs/promises';import {resolve,relative,sep} from 'node:path';import {spawnSync} from 'node:child_process';
 const out=resolve(process.argv.find(a=>a.startsWith('--out-dir='))?.slice(10)??'dist');
 if(!out.startsWith(resolve('.')+sep))throw Error('Build directory must stay inside the project');
@@ -15,5 +16,8 @@ const files=Object.keys(app.metafile.outputs).map(p=>relative(out,resolve(p)).sp
 const js=files.find(p=>p.endsWith('.js')),css=files.find(p=>p.endsWith('.css'));
 const html=(await readFile('public/index.html','utf8')).replace('__MAIN_JS__',js).replace('__MAIN_CSS__',css);
 await writeFile(resolve(out,'index.html'),html);await cp('public/favicon.svg',resolve(out,'favicon.svg'));for(const path of approvedPaths.filter(p=>p.startsWith('shared-wardrobe/'))){await mkdir(resolve(out,path,'..'),{recursive:true});await cp('release-assets/'+path,resolve(out,path));}await cp('LICENSES',resolve(out,'LICENSES.txt'));await writeFile(resolve(out,'.nojekyll'),'');
+// Home-screen install: icons, the app description for phones, and the offline copy (sw.js) of every file above.
+await cp('public/manifest.webmanifest',resolve(out,'manifest.webmanifest'));await mkdir(resolve(out,'icons'),{recursive:true});for(const icon of ['apple-touch-icon.png','icon-192.png','icon-512.png','icon-maskable-512.png'])await cp('public/icons/'+icon,resolve(out,'icons',icon));
+{const all=[];async function walk(dir){for(const name of await readdir(dir)){const path=resolve(dir,name);if((await stat(path)).isDirectory())await walk(path);else all.push(relative(out,path).split(sep).join('/'))}}await walk(out);const sw=serviceWorkerSource(all.sort());await writeFile(resolve(out,'sw.js'),sw.source);console.log('Offline copy version '+sw.version+': '+all.length+' files')}
 const inventory=[];async function scan(dir){for(const name of await readdir(dir)){const path=resolve(dir,name),info=await stat(path);if(info.isDirectory())await scan(path);else{if(info.size>=100_000_000)throw Error('File must be under100MB: '+relative(out,path));inventory.push({file:relative(out,path).split(sep).join('/'),bytes:info.size})}}}await scan(out);inventory.sort((a,b)=>b.bytes-a.bytes);const total=inventory.reduce((n,f)=>n+f.bytes,0);if(total>=1_000_000_000)throw Error('Build must be under1GB');
 await mkdir('output/pages',{recursive:true});await writeFile('output/pages/files.json',JSON.stringify({directory:relative('.',out),files:inventory,totalBytes:total,worker:workerRelative},null,2));for(const f of inventory)console.log(`${String(f.bytes).padStart(9)} B  ${f.file}`);console.log(`TOTAL ${total} B; no models, wasm, sourcemaps or local imports`);
