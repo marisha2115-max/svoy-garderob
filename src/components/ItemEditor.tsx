@@ -2,7 +2,7 @@ import {CategoryChoices} from './CategoryChoices';
 import {CropEditor} from './CropEditor';
 import {useState,useEffect,useRef} from 'react';import {categories,seasons,clothingStyles,type Item} from '../domain';import {editableItemFields,type ItemPatch,type ClosetStore} from '../storage';import {Modal} from './Modal';import {Photo} from './Photo';import {LocalPhotoControls} from './LocalPhotoControls';
 const subcategories:Record<string,string[]>={top:['Верх','Футболка','Рубашка','Свитер','Джемпер','Кардиган','Топ'],bottom:['Низ','Брюки','Джинсы','Юбка','Шорты'],outer:['Верхняя одежда','Куртка','Пальто','Плащ','Пуховик','Пиджак','Тренч'],dress:['Платье'],shoes:['Обувь','Кроссовки','Ботинки','Сапоги','Туфли','Сандалии'],accessory:['Аксессуар','Сумка','Шарф','Ремень','Головной убор'],unknown:['Не указана']};
-export function ItemEditor({item,store,onSave,onDelete,onClose,onImport,onAnalyze,photoVersion,onPhotoChanged}:{item?:Item;store:ClosetStore;onSave:(id:string,patch:ItemPatch)=>Promise<void>;onDelete:(item:Item)=>void;onClose:()=>void;onImport:(files:File[])=>void;onAnalyze:(item:Item)=>Promise<void>;analysisReady:boolean;catalogReady:boolean;photoVersion:number;onPhotoChanged:()=>Promise<void>}){
+export function ItemEditor({item,store,onSave,onDelete,onClose,onImport,onAnalyze,photoVersion,onPhotoChanged,onSell}:{onSell?:(item:Item)=>void;item?:Item;store:ClosetStore;onSave:(id:string,patch:ItemPatch)=>Promise<void>;onDelete:(item:Item)=>void;onClose:()=>void;onImport:(files:File[])=>void;onAnalyze:(item:Item)=>Promise<void>;analysisReady:boolean;catalogReady:boolean;photoVersion:number;onPhotoChanged:()=>Promise<void>}){
  const [photoPreview,setPhotoPreview]=useState<'active'|'original'|'cutout'>('active');
  const [cropping,setCropping]=useState(false);
  const [draft,setDraft]=useState(item),[busy,setBusy]=useState(false),[processing,setProcessing]=useState(false),[error,setError]=useState('');
@@ -24,6 +24,7 @@ export function ItemEditor({item,store,onSave,onDelete,onClose,onImport,onAnalyz
   {item.analysisStatus==='error'&&<p className="small muted">Укажите категорию и описание вручную.</p>}
   <LocalPhotoControls store={store} item={item} version={photoVersion} onChanged={onPhotoChanged} onProcess={onAnalyze} onBusy={setProcessing} onCrop={()=>{setPhotoPreview('active');setCropping(true)}} onPreviewChange={setPhotoPreview}/>
   {error&&<p className="message error" role="alert">{error}</p>}
+  {onSell&&<button className="button secondary full" disabled={blocked} onClick={()=>onSell(item)}>Объявление для продажи</button>}
   <button className="button danger full" disabled={blocked} onClick={()=>onDelete(item)}>Удалить вещь</button></>}
  </>:<><label className="button primary full upload-button">Выбрать фото<input aria-label="Фото из галереи" type="file" accept="image/*" multiple onChange={e=>{const files=[...(e.currentTarget.files??[])];if(files.length)onImport(files)}}/></label><p className="small muted">Можно выбрать несколько фотографий. Однородный фон можно убрать на устройстве. Категорию и название укажите вручную.</p></>}</Modal>
 }
