@@ -100,3 +100,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+===== Jost (шрифт интерфейса) =====
+Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)
+Licensed under the SIL Open Font License, Version 1.1: https://openfontlicense.org
+Файлы jost-cyrillic.woff2 и jost-latin.woff2 получены из Google Fonts (fonts.gstatic.com/s/jost/v20) и включены без изменений.
